@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="loginBtn">
+            <div class="qeydiyyatsiz">
+                <p class="qeydiyyatsiz-text">Qeydiyyatsız davam edin <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+            <div class="button">
+                <button class="login loginSign" style="background: white;">Login</button>
+                <button class="login loginSignup loginRegister">Register</button>
+            </div>
+            <div class="Sign">
+                <div class="Sign-container">
+                    <form class="loginParol">
+                        <input class="email mail" name="email" placeholder="Email ünvanı">
+                        <span class="emailerror hidden" style="color: red;">Email adres yanlisdir</span>
+                        <input type="password" class="email parol" name="sifre" placeholder="Şifrə">
+                        <span class="sifreerror hidden" style="color:red">sifre yanlisdir</span>
+                        <button type="submit" class="email daxil-ol">Daxil ol</button>
+
+                    </form>
+                </div>
+            </div>
+            <div class="Signup hidden">
+                <div class="Signup-container">
+                    <div>
+                        <form class="fullname">
+                            
+                        </form>
+                    </div>
+                    <form class="registerform">
+                        <div class="fullname">
+                            <div class="add">
+                                <input type="text" name="ad" id="" class="ad" placeholder="Ad">
+                                <span class="aderror hidden" style="color:red">adinizi daxil edin</span>
+                            </div>
+                            <div class="soyadd">
+                                <input type="text" name="soyad" id="" class="soyad2" placeholder="Soyad">
+                                <span class="soyaderror hidden" style="color: red;"> soyadinizi daxil edin</span>
+                            </div>
+                        </div>
+                        <input class="email mail2" name="email" placeholder="Email ünvanı">
+                        <span class="mailerror hidden" style="color: red;">Email adresini daxil edin</span>
+                        <input id="sifre" type="password" class="email sifre paroll" name="sifre" placeholder="Şifrə">
+                        <span class="sifreerror1 hidden" style="color: red;">sifre duzgun daxil edilmeyib</span>
+                        <input id="sifre2" type="password" class="email sifre paroll" name="sifre"
+                            placeholder="Şifrəni yenidən daxil edin">
+                        <span class="sifreerror2 hidden" style="color: red;">sifre yanlisidr</span>
+                        <span class="yanlis hidden" style="color: red;">sifreler eyni deyil</span>
+                        <button type="submit" class="email daxil-ol">Qeydiyyat</button>
+                    </form>
+                    <span class="qayda"><input type="checkbox" class="checkbox"><span class="qaydalar">Kampaniyalardan
+                            xəbərdar olmaq üçün məlumat
+                            almaq istəyirik, <span class="qaydalink">Qaydalar və şərtlər</span> Qaydalarla
+                            razıyam.</span></span>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./javascript/main.js"></script>
+    <script src="https://kit.fontawesome.com/081a8069c2.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

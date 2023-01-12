@@ -1,0 +1,413 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .height {
+        height: 100% !important;
+    }
+
+    .loginBtn {
+
+        width: 35%;
+        height: 82%;
+        border-radius: 10px;
+        gap: 7px;
+        background-color: #fff;
+        border: 1px solid #ba958b;
+
+        .sert {
+            width: 100%;
+            height: 107.34vh;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: -55px;
+            background-color: #000000ba;
+            z-index: 5;
+
+            .qaydaa {
+                position: absolute;
+                z-index: 6;
+                width: 24%;
+                background: #fff;
+                height: 49%;
+                overflow-y: scroll;
+                border-radius: 5px;
+                position: relative;
+
+                .fa-regular {
+                    position: absolute;
+                    right: 5px;
+                    top: 4px;
+                    // color: rgb(0 0 0 / 77%);
+                    font-size: 20px;
+                    color: #ba958b;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: red;
+                        transform: scale(1.12);
+                        transition: calc(.987s);
+                    }
+
+                }
+
+            }
+        }
+
+        .qeydiyyatsiz {
+            width: 100%;
+            height: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 45px;
+
+            .qeydiyyatsiz-text {
+                font-size: 14px;
+                color: #ba958b;
+                cursor: pointer;
+                text-align: center;
+                margin-bottom: 8px;
+            }
+        }
+
+        .button {
+            width: 68%;
+            height: 53px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            background: #b5babc;
+            border-radius: 10px;
+            margin-bottom: 25px;
+
+            .login {
+                width: 166px;
+                height: 48px;
+                padding: 17px;
+                color: #ba958b;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: calc(0.678s);
+                z-index: 2;
+                border: none;
+                background: none;
+                border-radius: 10px;
+            }
+        }
+
+
+
+        .Sign {
+
+            &-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 15px;
+                width: 100%;
+                height: 58vh;
+                gap: 25px;
+                border-radius: 10px;
+                position: relative;
+
+
+                .loginParol {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 19px;
+                    width: 75%;
+                }
+
+                .fa-circle-xmark {
+                    position: absolute;
+                    top: 6px;
+                    right: 6px;
+                    color: #ba958b;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: red;
+                        transform: scale(1.12);
+                        transition: calc(.987s);
+                    }
+                }
+
+
+
+
+
+                .email {
+                    padding: 2px 13px;
+                    width: 100%;
+                    height: 46px;
+                    background-color: #eee;
+                    border: 1px solid #fff;
+                    border-radius: 6px;
+                    outline: none;
+                }
+
+                .daxil-ol {
+                    background-color: #ba958b;
+                    cursor: pointer;
+                    width: 75%;
+                }
+            }
+        }
+
+        .Signup {
+
+            &-container {
+                width: 100%;
+                height: 57vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                // justify-content: center;
+                gap: 19px;
+                position: relative;
+                // background-color: #fff;
+                // border: 1px solid #e5e5e5;
+                // border-radius: 10px;
+
+                .registerform {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 19px;
+                    width: 75%;
+                }
+
+                .fa-circle-xmark {
+                    position: absolute;
+                    top: 6px;
+                    right: 6px;
+                    color: #ba958b;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: red;
+                        transform: scale(1.12);
+                        transition: calc(.987s);
+                    }
+
+
+                }
+
+                p {
+                    font-size: 14px;
+                    color: #ba958b;
+                    cursor: pointer;
+                    text-align: center;
+                    margin-bottom: 8px;
+                }
+                .email {
+                    padding: 2px 13px;
+                    width: 100%;
+                    height: 46px;
+                    background-color: #eee;
+                    border: 1px solid #fff;
+                    border-radius: 6px;
+                    outline: none;
+                }
+                .qayda {
+                    width: 75%;
+                    font-size: 17px;
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 3px;
+
+                    .checkbox {
+                        width: 11px;
+                        height: 14px;
+                    }
+                    .qaydalar {
+                        .qaydalink {
+                            color: #ba958b;
+                            cursor: pointer;
+                            transition: calc(0.987s);
+
+                            &:hover {
+                                color: black;
+                            }
+                        }
+                    }
+                }
+                .daxil-ol {
+                    background-color: #ba958b;
+                    cursor: pointer;
+                    width: 100%;
+                }
+                .fullname {
+                    width: 100%;
+                    display: flex;
+                    .add {
+                        width: 100%;
+                        .ad {
+                            padding: 2px 13px;
+                            width: 100%;
+                            height: 46px;
+                            background-color: #eee;
+                            border: 1px solid #fff;
+                            border-radius: 6px;
+                            outline: none;
+                        }
+                    }
+                    .soyadd {
+                        width: 100%;
+                        .soyad2 {
+                            padding: 2px 13px;
+                            width: 100%;
+                            height: 46px;
+                            background-color: #eee;
+                            border: 1px solid #fff;
+                            border-radius: 6px;
+                            outline: none;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    .block {
+        display: block !important;
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #ba958b;
+    
+    .header-container {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto;
+
+        .header-container-logo {
+            img {
+                height: 32px;
+            }
+        }
+
+        .header-container-search {
+            position: relative;
+            height: 35px;
+            width: 535px;
+            top: 0;
+            right: 0;
+
+            .search {
+                outline: none;
+                border: none;
+                width: 100%;
+                height: 100%;
+                font-size: 19px;
+                padding: 2px 2px 2px 15px;
+            }
+
+            i {
+                position: absolute;
+                right: 5px;
+                top: 6px;
+                font-size: 20px;
+            }
+        }
+
+        .header-container-right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 24px;
+            color: rgba(255, 255, 255, 0.664);
+
+            .dil {
+                position: relative;
+                font-size: 14px;
+                padding: 10px;
+                box-shadow: 0px 0px 7px 2px #95827d;
+                background-color: #b9a29b;
+                color: white;
+
+
+                .fa-solid.fa-globe {
+                    color: rgb(220, 219, 217);
+                    margin-left: 5px;
+                }
+            }
+            .fa-regular.fa-circle-user {
+                position: relative;
+                top: 0;
+                display: block;
+                cursor: pointer;
+                &:hover{
+                transition: calc(0.35s);
+                color: red;
+                }
+
+                .btn {
+                    width: 235px;
+                    position: absolute;
+                    right: -93px;
+                    background: #c6c6c2;
+                    height: 170px;
+                    top: 62px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    .login {
+                        width: 200px;
+                        height: 65px;
+                        padding: 17px;
+                        background-color: #ffffff;
+                        border: 1px solid #ba958b;
+                        color: #ba958b;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        transition: calc(0.678s);
+                        cursor: pointer;
+                        z-index: 2;
+
+                        &:hover {
+                            // transform: scale(1.038);
+                            transition: calc(0.876s);
+                            opacity: 0.7;
+                            background-color: #ba958b;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

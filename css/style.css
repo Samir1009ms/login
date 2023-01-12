@@ -1,0 +1,349 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .height {
+  height: 100% !important;
+}
+.container .loginBtn {
+  width: 35%;
+  height: 82%;
+  border-radius: 10px;
+  gap: 7px;
+  background-color: #fff;
+  border: 1px solid #ba958b;
+}
+.container .loginBtn .sert {
+  width: 100%;
+  height: 107.34vh;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -55px;
+  background-color: rgba(0, 0, 0, 0.7294117647);
+  z-index: 5;
+}
+.container .loginBtn .sert .qaydaa {
+  position: absolute;
+  z-index: 6;
+  width: 24%;
+  background: #fff;
+  height: 49%;
+  overflow-y: scroll;
+  border-radius: 5px;
+  position: relative;
+}
+.container .loginBtn .sert .qaydaa .fa-regular {
+  position: absolute;
+  right: 5px;
+  top: 4px;
+  font-size: 20px;
+  color: #ba958b;
+  cursor: pointer;
+}
+.container .loginBtn .sert .qaydaa .fa-regular:hover {
+  color: red;
+  transform: scale(1.12);
+  transition: 0.987s;
+}
+.container .loginBtn .qeydiyyatsiz {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+.container .loginBtn .qeydiyyatsiz .qeydiyyatsiz-text {
+  font-size: 14px;
+  color: #ba958b;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.container .loginBtn .button {
+  width: 68%;
+  height: 53px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background: #b5babc;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+.container .loginBtn .button .login {
+  width: 166px;
+  height: 48px;
+  padding: 17px;
+  color: #ba958b;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.678s;
+  z-index: 2;
+  border: none;
+  background: none;
+  border-radius: 10px;
+}
+.container .loginBtn .Sign-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  width: 100%;
+  height: 58vh;
+  gap: 25px;
+  border-radius: 10px;
+  position: relative;
+}
+.container .loginBtn .Sign-container .loginParol {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  width: 75%;
+}
+.container .loginBtn .Sign-container .fa-circle-xmark {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  color: #ba958b;
+  cursor: pointer;
+}
+.container .loginBtn .Sign-container .fa-circle-xmark:hover {
+  color: red;
+  transform: scale(1.12);
+  transition: 0.987s;
+}
+.container .loginBtn .Sign-container .email {
+  padding: 2px 13px;
+  width: 100%;
+  height: 46px;
+  background-color: #eee;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  outline: none;
+}
+.container .loginBtn .Sign-container .daxil-ol {
+  background-color: #ba958b;
+  cursor: pointer;
+  width: 75%;
+}
+.container .loginBtn .Signup-container {
+  width: 100%;
+  height: 57vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+  position: relative;
+}
+.container .loginBtn .Signup-container .registerform {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  width: 75%;
+}
+.container .loginBtn .Signup-container .fa-circle-xmark {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  color: #ba958b;
+  cursor: pointer;
+}
+.container .loginBtn .Signup-container .fa-circle-xmark:hover {
+  color: red;
+  transform: scale(1.12);
+  transition: 0.987s;
+}
+.container .loginBtn .Signup-container p {
+  font-size: 14px;
+  color: #ba958b;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.container .loginBtn .Signup-container .email {
+  padding: 2px 13px;
+  width: 100%;
+  height: 46px;
+  background-color: #eee;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  outline: none;
+}
+.container .loginBtn .Signup-container .qayda {
+  width: 75%;
+  font-size: 17px;
+  display: flex;
+  align-items: flex-start;
+  gap: 3px;
+}
+.container .loginBtn .Signup-container .qayda .checkbox {
+  width: 11px;
+  height: 14px;
+}
+.container .loginBtn .Signup-container .qayda .qaydalar .qaydalink {
+  color: #ba958b;
+  cursor: pointer;
+  transition: 0.987s;
+}
+.container .loginBtn .Signup-container .qayda .qaydalar .qaydalink:hover {
+  color: black;
+}
+.container .loginBtn .Signup-container .daxil-ol {
+  background-color: #ba958b;
+  cursor: pointer;
+  width: 100%;
+}
+.container .loginBtn .Signup-container .fullname {
+  width: 100%;
+  display: flex;
+}
+.container .loginBtn .Signup-container .fullname .add {
+  width: 100%;
+}
+.container .loginBtn .Signup-container .fullname .add .ad {
+  padding: 2px 13px;
+  width: 100%;
+  height: 46px;
+  background-color: #eee;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  outline: none;
+}
+.container .loginBtn .Signup-container .fullname .soyadd {
+  width: 100%;
+}
+.container .loginBtn .Signup-container .fullname .soyadd .soyad2 {
+  padding: 2px 13px;
+  width: 100%;
+  height: 46px;
+  background-color: #eee;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  outline: none;
+}
+.container .block {
+  display: block !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #ba958b;
+}
+.header .header-container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.header .header-container .header-container-logo img {
+  height: 32px;
+}
+.header .header-container .header-container-search {
+  position: relative;
+  height: 35px;
+  width: 535px;
+  top: 0;
+  right: 0;
+}
+.header .header-container .header-container-search .search {
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-size: 19px;
+  padding: 2px 2px 2px 15px;
+}
+.header .header-container .header-container-search i {
+  position: absolute;
+  right: 5px;
+  top: 6px;
+  font-size: 20px;
+}
+.header .header-container .header-container-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.664);
+}
+.header .header-container .header-container-right .dil {
+  position: relative;
+  font-size: 14px;
+  padding: 10px;
+  box-shadow: 0px 0px 7px 2px #95827d;
+  background-color: #b9a29b;
+  color: white;
+}
+.header .header-container .header-container-right .dil .fa-solid.fa-globe {
+  color: rgb(220, 219, 217);
+  margin-left: 5px;
+}
+.header .header-container .header-container-right .fa-regular.fa-circle-user {
+  position: relative;
+  top: 0;
+  display: block;
+  cursor: pointer;
+}
+.header .header-container .header-container-right .fa-regular.fa-circle-user:hover {
+  transition: 0.35s;
+  color: red;
+}
+.header .header-container .header-container-right .fa-regular.fa-circle-user .btn {
+  width: 235px;
+  position: absolute;
+  right: -93px;
+  background: #c6c6c2;
+  height: 170px;
+  top: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.header .header-container .header-container-right .fa-regular.fa-circle-user .btn .login {
+  width: 200px;
+  height: 65px;
+  padding: 17px;
+  background-color: #ffffff;
+  border: 1px solid #ba958b;
+  color: #ba958b;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.678s;
+  cursor: pointer;
+  z-index: 2;
+}
+.header .header-container .header-container-right .fa-regular.fa-circle-user .btn .login:hover {
+  transition: 0.876s;
+  opacity: 0.7;
+  background-color: #ba958b;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
