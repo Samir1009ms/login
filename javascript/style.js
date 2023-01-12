@@ -4,11 +4,11 @@ const closeBtn = document.querySelector(".end")
 const sign = document.querySelector(".Sign")
 const signUp = document.querySelector(".Signup")
 
-loginBtn.addEventListener("click", () => {
-    window.open("http://127.0.0.1:5500/account.html","_self");
-    // window.location = "http://127.0.0.1:5500/account.html";
-    console.log("s");
-})
+// loginBtn.addEventListener("click", () => {
+//     window.open("http://127.0.0.1:5500/account.html","_self");
+//     // window.location = "http://127.0.0.1:5500/account.html";
+//     console.log("s");
+// })
 
 const btn =document.querySelector(".fa-circle-user")
 const btnlist=document.querySelector(".btn")
@@ -19,10 +19,10 @@ btnlist.classList.toggle("hidden")
 
 })
 
-const hesabm =document.querySelector(".hesabm")
-hesabm.addEventListener("click",()=>{
-window.open("http://127.0.0.1:5500/hesabmelumat.html","_self")
-})
+// const hesabm =document.querySelector(".hesabm")
+// hesabm.addEventListener("click",()=>{
+// window.open("http://127.0.0.1:5500/hesabmelumat.html","_self")
+// })
 
 
 

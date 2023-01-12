@@ -1,9 +1,9 @@
 const closeBtnup = document.querySelector(".qeydiyyatsiz-text")
 
-closeBtnup.addEventListener("click", () => {
-    window.open("http://127.0.0.1:5500/index.html", "_self");
-    console.log("SS");
-})
+// closeBtnup.addEventListener("click", () => {
+//     window.open("http://127.0.0.1:5500/index.html", "_self");
+//     console.log("SS");
+// })
 
 const formlogin = document.querySelector(".loginParol")
 const form = document.querySelector(".registerform")

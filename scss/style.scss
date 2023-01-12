@@ -81,11 +81,18 @@ body {
             margin-bottom: 45px;
 
             .qeydiyyatsiz-text {
-                font-size: 14px;
-                color: #ba958b;
-                cursor: pointer;
+                font-size: 18px;
                 text-align: center;
                 margin-bottom: 8px;
+
+                a {
+                    text-decoration: none;
+                    cursor: pointer;
+                    color: #ba958b;
+
+
+
+                }
             }
         }
 
@@ -220,6 +227,7 @@ body {
                     text-align: center;
                     margin-bottom: 8px;
                 }
+
                 .email {
                     padding: 2px 13px;
                     width: 100%;
@@ -229,6 +237,7 @@ body {
                     border-radius: 6px;
                     outline: none;
                 }
+
                 .qayda {
                     width: 75%;
                     font-size: 17px;
@@ -240,6 +249,7 @@ body {
                         width: 11px;
                         height: 14px;
                     }
+
                     .qaydalar {
                         .qaydalink {
                             color: #ba958b;
@@ -252,16 +262,20 @@ body {
                         }
                     }
                 }
+
                 .daxil-ol {
                     background-color: #ba958b;
                     cursor: pointer;
                     width: 100%;
                 }
+
                 .fullname {
                     width: 100%;
                     display: flex;
+
                     .add {
                         width: 100%;
+
                         .ad {
                             padding: 2px 13px;
                             width: 100%;
@@ -272,8 +286,10 @@ body {
                             outline: none;
                         }
                     }
+
                     .soyadd {
                         width: 100%;
+
                         .soyad2 {
                             padding: 2px 13px;
                             width: 100%;
@@ -284,11 +300,12 @@ body {
                             outline: none;
                         }
                     }
-                    
+
                 }
             }
         }
     }
+
     .block {
         display: block !important;
     }
@@ -302,7 +319,7 @@ body {
     width: 100%;
     height: 100px;
     background-color: #ba958b;
-    
+
     .header-container {
         width: 90%;
         height: 100%;
@@ -362,14 +379,16 @@ body {
                     margin-left: 5px;
                 }
             }
+
             .fa-regular.fa-circle-user {
                 position: relative;
                 top: 0;
                 display: block;
                 cursor: pointer;
-                &:hover{
-                transition: calc(0.35s);
-                color: red;
+
+                &:hover {
+                    transition: calc(0.35s);
+                    color: red;
                 }
 
                 .btn {
@@ -385,6 +404,7 @@ body {
                     flex-direction: column;
                     gap: 10px;
 
+
                     .login {
                         width: 200px;
                         height: 65px;
@@ -398,12 +418,32 @@ body {
                         cursor: pointer;
                         z-index: 2;
 
+                        a {
+                            text-decoration: none;
+                            color: #ba958b;
+
+                            width: 100%;
+                            height: 100%;
+                            display: inline-block;
+                            /* margin-top: 25px; */
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                        }
+
                         &:hover {
                             // transform: scale(1.038);
                             transition: calc(0.876s);
                             opacity: 0.7;
                             background-color: #ba958b;
-                            color: white;
+
+                            a {
+                                &:hover {
+
+                                    color: white;
+                                }
+                            }
                         }
                     }
                 }
